@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="index.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="header">
+      <button id="new" class="button-left">New</button>
+      <button id="save" class="button-left">Save</button>
+      <button id="copy-to-clipboard" class="button-right">Copy to clipboard</button>
+    </div>
+    <div id="lightbar-wrapper"></div>
+    <div class="overlay-container hidden">
+      <div id="dialog">
+        <div class="close"></div>
+        <div class="title">You are almost there</div>
+        <div class="content">
+          <ol>
+            <li>Open a Chrome OS Shell:<pre><span class="key">ctrl</span> <span class="key">alt</span> + <span class="key">T</span></pre></li>
+            <li>Run lightbar commands:<pre><span class="key">ctrl</span> <span class="key">shift</span> + <span class="key">V</span></pre></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
